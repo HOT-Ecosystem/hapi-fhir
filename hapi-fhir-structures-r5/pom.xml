@@ -29,14 +29,14 @@
 		<dependency>
 			<groupId>ca.uhn.hapi.fhir</groupId>
 			<artifactId>org.hl7.fhir.r5</artifactId>
-			<version>${fhir_core_version}</version>
+			<version>4.2.25-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.fhir</groupId>
 			<artifactId>ucum</artifactId>
 		</dependency>
 
-		<!-- 
+		<!--
 		Optional dependencies from RI codebase
 		-->
 		<dependency>
@@ -73,7 +73,7 @@
 		</dependency>
 
 		<!--
-		Test dependencies on other optional parts of HAPI 
+		Test dependencies on other optional parts of HAPI
 		-->
 		<dependency>
 			<groupId>ca.uhn.hapi.fhir</groupId>
